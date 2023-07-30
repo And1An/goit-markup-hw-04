@@ -241,6 +241,17 @@ address{
     border: 1px solid transparent;
 }
 
+.section-two-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
 .picture-subtitle{
     color:var(--brand-color2);
     font-size: 20px;
@@ -510,12 +521,13 @@ address{
 }
 
 .section-two-icon{
-    width: 264px;
-    height: 112px;
+    width: 64px;
+    height: 64px;
     background-color:var(--brand-color6);
     fill: none;
     padding: 24px 100px;
     margin-bottom: 8px;
+  
 }
 
 
