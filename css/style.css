@@ -809,8 +809,6 @@ address{
     position: absolute;
     width: 24px;
     height: 24px;
-    border-radius: 100%;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -823,13 +821,13 @@ address{
 
 }
 .btn-close:hover{
-    background-color: #404bbf;
+    background-color: var(--brand-color3);
     border: none;
 }
 
 
 .btn-close:focus{
-    background-color: #404bbf;
+    background-color: var(--brand-color3);
     border: none;
 }
 
