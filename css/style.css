@@ -553,14 +553,9 @@ address{
 
 .soc-network-list{
     width: 40px;
-        height: 40px;
-        border-radius: 100%;
-        background-color: var(--brand-color);
-        padding: 12px;
-        transition-property: background-color;
-        transition-duration: 250ms, 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    height: 40px;
+    border-radius: 100%;
+        
 
 
 }
@@ -681,12 +676,7 @@ address{
 .footer-item{
     width: 40px;
     height: 40px;
-    background-color: var(--brand-color);
-    padding: 8px;
-    border-radius: 100%;
-    transition-property: background-color;
-    transition-duration: 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 
    
    
