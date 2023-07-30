@@ -574,6 +574,10 @@ address{
     background-color: #404bbf;
 }
 
+.soc-network-link:hover{
+    background-color: var(--brand-color3);
+}
+
 .soc-network-cartoon{
     fill:var(--brand-color6)
 }
