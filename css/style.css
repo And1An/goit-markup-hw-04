@@ -521,8 +521,6 @@ address{
 }
 
 .section-two-icon{
-    width: 64;
-    height: 64;
     background-color:var(--brand-color6);
     fill: none;
     padding: 24px 100px;
