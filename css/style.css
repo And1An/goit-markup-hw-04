@@ -701,6 +701,8 @@ address{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     
 }
 
@@ -713,6 +715,9 @@ address{
     background-color: var(--brand-color9);
 }
 
+.img-footer{
+        fill: var(--brand-color6);
 
+}
 
 
