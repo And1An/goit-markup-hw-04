@@ -695,21 +695,22 @@ address{
 .footer-link{
     display: block;
     width: inherit;
-    height:inherit;
-    background-color:var(--brand-color);
-    border-radius: 50%;
-    
-}
-
-.footer-item:hover{
-    background-color: var(--brand-color9);
-    width: inherit;
     height: inherit;
     background-color: var(--brand-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+.footer-link:hover{
+    background-color: var(--brand-color9);
+   
+}
+
+.footer-link:focus{
+    background-color: var(--brand-color9);
 }
 
 
