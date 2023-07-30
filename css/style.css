@@ -613,11 +613,27 @@ address{
 }
 
 .company-link{
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height:inherit;
     display: block;
-    
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand-color8);
 }
+
+.company-link:hover{
+    border-color: var(--brand-color3);
+    color:var(--brand-color3)
+}
+.company-link:focus{
+    border-color: var(--brand-color3);
+    color: var(--brand-color3)
+
+}
+
 
 .section-five{
     padding-top: 120px;
