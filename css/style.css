@@ -226,7 +226,11 @@ address{
     font-family: inherit;
     padding: 12px 24px 12px 24px;
     border-radius: 4px;
-    border: 1px solid var(--brand-color7)
+    border: 1px solid var(--brand-color7);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 
@@ -514,18 +518,21 @@ address{
 }
 .container-cover-link{
     display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-cover-link:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-cover-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-cover-link:hover .container-cover {
