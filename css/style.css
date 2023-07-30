@@ -540,14 +540,13 @@ address{
 
 .soc-network-list{
     width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    background-color: var(--brand-color);
-    padding: 12px;
-    transition-property: background-color;
-    transition-duration: 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+        height: 40px;
+        border-radius: 100%;
+        background-color: var(--brand-color);
+        padding: 12px;
+        transition-property: background-color;
+        transition-duration: 250ms, 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
@@ -587,20 +586,10 @@ address{
 
 
 
-.company-item{
-    width: 168px;
-    height: 88px;
-    border-radius: 100px;
-    border: 1px solid var(--lightslate, #8E8F99);
-    padding: 16px 32px;
-    transition-property: background-color;
-    transition-duration: 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
     
-}
 
 .company-img{
     fill: currentColor;
@@ -651,7 +640,9 @@ address{
 
 .footer-container {
     display: flex;
+    align-items: baseline;
     gap: 120px;
+
 }
 
 .footer-list {
