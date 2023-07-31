@@ -513,7 +513,6 @@ address{
 
 .container-images-link{
    width: calc((100% - 48px) / 3);
-   position: relative;
     
 }
 .container-cover-link{
