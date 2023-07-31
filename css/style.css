@@ -385,10 +385,12 @@ address{
 
 .hero-btn:hover{
     background-color: var(--brand-color3);
+    fill: var(--brand-color4);
 }
 
 .hero-btn:focus{
     background-color: var(--brand-color3);
+    fill: var(--brand-color4);
 }
 
 .caption{
