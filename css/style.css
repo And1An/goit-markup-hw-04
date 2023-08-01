@@ -833,14 +833,14 @@ address {
 }
 
 .btn-close:hover {
-    background-color: var(--brand-color3);
+    fill: var(--brand-color4);
     border: none;
 
 }
 
 
 .btn-close:focus {
-    background-color: var(--brand-color3);
+    fill: var(--brand-color4);
     border: none;
 }
 
