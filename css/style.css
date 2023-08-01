@@ -835,6 +835,7 @@ address {
 .btn-close:hover {
     fill: var(--brand-color4);
     border: none;
+    background-color: var(--brand-color3);
 
 }
 
@@ -842,6 +843,7 @@ address {
 .btn-close:focus {
     fill: var(--brand-color4);
     border: none;
+    background-color: var(--brand-color3);
 }
 
 
