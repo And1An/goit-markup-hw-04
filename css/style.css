@@ -851,3 +851,14 @@ address {
     visibility: hidden;
     pointer-events: none;
 }
+
+.section-two-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--brand-color6);
+    border-radius: 4px;
+    height: 112px;
+    margin-bottom: 8px;
+}
