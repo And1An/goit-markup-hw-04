@@ -336,7 +336,7 @@ address {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(/images/hero-img.jpg);
+            rgba(46, 47, 66, 0.7)), url(../images/hero-img.jpg);
     ;
     max-width: 1440px;
     background-position: center;
