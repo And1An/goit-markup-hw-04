@@ -129,14 +129,7 @@ header {
 
 
 .list-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: var(--brand-color3);
-    border-radius: 2px;
-    width: 100%;
+
 }
 
 
@@ -678,6 +671,8 @@ address {
     fill: currentColor;
 }
 
+
+
 .company-img:hover {
     stroke: var(--brand-color3);
 }
@@ -863,3 +858,20 @@ address {
     height: 112px;
     margin-bottom: 8px;
 }
+
+.current{
+    color: var(--brand-color3);
+
+}
+
+.current::after{
+     content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: var(--brand-color3);
+        border-radius: 2px;
+        width: 100%;
+}
+
