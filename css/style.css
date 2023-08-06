@@ -719,6 +719,8 @@ address {
 .footer-container {
     display: flex;
     align-items: baseline;
+    justify-content: space-around;
+    
 
 
 }
@@ -1003,4 +1005,49 @@ address {
     border: none;
     border-radius: 4px;
 
+}
+
+.email-footer{
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--brand-color4);
+    border-radius: 4px;
+    background-color: var(--brand-color2);
+    margin-right: 24px;
+}
+
+.btn-footer{
+    width: 165px;
+    height: 40px;
+    background-color: var(--brand-color);
+    color: var(--brand-color4);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 8px 24px 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    transition-property: background-color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+ 
+
+}
+
+.footer-img-subscribe{
+    fill: var(--brand-color4);
+    padding-right: 2px;
+
+}
+
+.footer-email-input{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
