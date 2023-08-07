@@ -1011,6 +1011,7 @@ address {
     width: 264px;
     height: 40px;
     border: 1px solid var(--brand-color4);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: var(--brand-color2);
     margin-right: 24px;
@@ -1024,25 +1025,27 @@ address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding: 8px 24px 16px 32px;
+    letter-spacing: 0.03em;
     border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
     border: none;
-    margin-right: auto;
-    margin-left: auto;
     transition-property: background-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    text-align: center;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px   ;
+    
+ 
  
 
 }
 
 .footer-img-subscribe{
     fill: var(--brand-color4);
-    padding-right: 2px;
+
 
 }
 
@@ -1050,4 +1053,28 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-form{
+    display: flex;
+    justify-content: center;
+}
+
+.email-footer::placeholder{
+    padding-left: 16px;
+    color: var(--brand-color4);
+}
+
+.footer-subscribe-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color4);
+    padding-bottom: 16px;
+}
+
+
+.logo-div2{
+    margin-right: 80px;
 }
